@@ -1,4 +1,5 @@
-import { act, renderHook } from '@testing-library/react-hooks/native';
+import { renderHook } from '@testing-library/react-native';
+import { act } from 'react-test-renderer';
 import { useGameSession } from '../hooks/useGameSession';
 
 describe('useGameSession', () => {

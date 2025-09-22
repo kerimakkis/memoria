@@ -1,0 +1,179 @@
+{
+  "app": {
+    "name": "Memoria"
+  },
+  "theme": {
+    "system": "Sistem",
+    "light": "Açık",
+    "dark": "Koyu"
+  },
+  "buttons": {
+    "playAgain": "Tekrar Oyna",
+    "signIn": "Giriş Yap",
+    "signUp": "Kayıt Ol",
+    "signOut": "Çıkış Yap"
+  },
+  "home": {
+    "subtitleSignedOut": "Günlük zihin egzersizlerine başlamak için giriş yapın.",
+    "subtitleSignedIn": "{{email}} için günlük oyun planı.",
+    "quickLinks": {
+      "leaderboard": "Liderlik",
+      "profile": "Profil",
+      "settings": "Ayarlar"
+    }
+  },
+  "auth": {
+    "loginTitle": "Giriş Yap",
+    "registerTitle": "Kayıt Ol",
+    "noAccount": "Hesabın yok mu?",
+    "haveAccount": "Zaten üye misin?",
+    "namePlaceholder": "Ad Soyad",
+    "emailPlaceholder": "E-posta",
+    "passwordPlaceholder": "Şifre",
+    "successTitle": "Başarılı",
+    "successDescription": "Lütfen e-posta kutunu doğrulama için kontrol et.",
+    "errorTitle": "Hata",
+    "genericError": "Bir hata oluştu."
+  },
+  "leaderboard": {
+    "title": "Liderlik Tablosu",
+    "all": "Tümü",
+    "rank": "Sıra",
+    "user": "Kullanıcı",
+    "score": "Skor",
+    "loading": "Yükleniyor...",
+    "empty": "Henüz skor bulunmuyor."
+  },
+  "profile": {
+    "title": "Profil",
+    "email": "E-posta",
+    "userId": "Kullanıcı ID",
+    "recentGames": "Son Oyunlar",
+    "historyEmpty": "Henüz oyun geçmişi bulunmuyor.",
+    "score": "Skor: {{score}}",
+    "unknownGame": "Bilinmeyen Oyun"
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "theme": "Tema",
+    "currentTheme": "Şu an {{mode}} modundasın.",
+    "account": "Hesap",
+    "signOutError": "Çıkış yapılamadı",
+    "language": {
+      "title": "Dil",
+      "description": "Uygulama dilini seç."
+    },
+    "languages": {
+      "en": "İngilizce",
+      "de": "Almanca",
+      "tr": "Türkçe"
+    }
+  },
+  "games": {
+    "status": {
+      "score": "Skor: {{score}}",
+      "remaining": "Kalan Süre: {{seconds}} sn",
+      "accuracy": "%{{percentage}} başarı"
+    },
+    "feedback": {
+      "correct": "Harika! Doğru cevap.",
+      "incorrect": "Yeniden dene, ipucuna odaklan."
+    },
+    "messages": {
+      "notFound": "Oyun bulunamadı.",
+      "saving": "Skor kaydediliyor...",
+      "saveError": "Skor kaydedilemedi"
+    },
+    "categories": {
+      "memory": "Hafıza",
+      "attention": "Dikkat",
+      "logic": "Mantık"
+    },
+    "difficulties": {
+      "easy": "Kolay",
+      "medium": "Orta",
+      "hard": "Zor"
+    },
+    "memoryMatch": {
+      "title": "Hafıza Eşleştirme",
+      "summary": "Kartları çevirerek aynı eşleri bulun.",
+      "goal": "En kısa zamanda tüm eşleri bul.",
+      "hint": "Önce köşeleri ezberlemek hız kazandırır.",
+      "prompt": "Eşleşen ikiliyi bulun: {{pair}} {{pair}}",
+      "explanation": "Kısa süreli hafızanı kullanarak çifti yakala."
+    },
+    "sequenceRemember": {
+      "title": "Sıra Hatırlama",
+      "summary": "Renk dizisini doğru sırayla tekrar et.",
+      "goal": "Her turda uzayan diziyi hatırla.",
+      "hint": "Ritmi sayarak akılda tut.",
+      "prompt": "Diziyi hatırla: {{sequence}}",
+      "explanation": "Ritmi takip ederek sırayı koru."
+    },
+    "patternVision": {
+      "title": "Desen Yakala",
+      "summary": "Şekil sırasındaki eksik öğeyi bul.",
+      "goal": "En yüksek doğru sayısına ulaş.",
+      "hint": "Şekillerin artış hızını incele.",
+      "prompt": "Deseni tamamla: {{sequence}} , ?",
+      "explanation": "Artış hızını takip ederek sonraki sayıyı bul."
+    },
+    "quickCount": {
+      "title": "Hızlı Say",
+      "summary": "Gösterilen nesneleri hızlıca say.",
+      "goal": "Süre bitmeden doğru sayıyı seç.",
+      "hint": "Gruplayarak saymak zamanı kısaltır.",
+      "prompt": "Kaç adet simge görüyorsun? {{symbols}}",
+      "explanation": "Gruplamak tahmin ve kontrolü hızlandırır."
+    },
+    "focusTap": {
+      "title": "Dikkat Dokunuş",
+      "summary": "Beliren hedeflere hızlıca dokun.",
+      "goal": "Belirlenen sürede en çok hedefe dokun.",
+      "hint": "Bakışını ekranın ortasında tut.",
+      "prompt": "Hedef sayıya odaklan: {{number}}. Hangisi doğru?",
+      "explanation": "Ortada kal ve odaklanmanı koru."
+    },
+    "emotionMatch": {
+      "title": "Duygu Eşle",
+      "summary": "Yüz ifadelerini doğru duyguyla eşleştir.",
+      "goal": "Yüksek doğrulukla eşleştirme yap.",
+      "hint": "Göz ve ağız ifadelerine dikkat et.",
+      "prompt": "Emoji hangi duyguyu ifade ediyor? {{emoji}}",
+      "explanation": "Gözler ve ağız duyguyu ortaya çıkarır.",
+      "emotions": {
+        "happy": "Mutlu",
+        "sad": "Üzgün",
+        "angry": "Öfkeli",
+        "surprised": "Şaşırmış"
+      }
+    },
+    "rhythmTap": {
+      "title": "Ritim Takip",
+      "summary": "Ritmi yakalayarak doğru zamanda dokun.",
+      "goal": "Ardışık doğru hamle serileri yakala.",
+      "hint": "Vuruşları yüksek sesle say.",
+      "prompt": "Ritmi tekrar et: {{pattern}}",
+      "explanation": "1-2-3-4 diyerek ritmi sabit tut."
+    },
+    "mathBridge": {
+      "title": "Sayısal Köprü",
+      "summary": "Basit işlemlerle köprüyü tamamla.",
+      "goal": "İşlemleri doğru çözerek geçişi tamamla.",
+      "hint": "Büyük sayıları küçük parçalara böl.",
+      "prompt": "Köprüyü tamamla: {{a}} + {{b}} = ?",
+      "explanation": "Sayıları zihninde bölerek hızlıca topla."
+    },
+    "findTheDifference": {
+      "title": "Farkı Bul",
+      "summary": "İki görsel arasındaki farkları yakala.",
+      "goal": "Süre dolmadan tüm farkları tespit et.",
+      "hint": "Gözlerinle Z çizerek tarama yap.",
+      "prompt": "Farklı olanı bul: {{sequence}}",
+      "explanation": "Farklı renkteki çiçeği seç."
+    }
+  },
+  "messages": {
+    "noAttempts": "Henüz deneme yok."
+  }
+}

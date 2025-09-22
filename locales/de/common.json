@@ -1,0 +1,179 @@
+{
+  "app": {
+    "name": "Memoria"
+  },
+  "theme": {
+    "system": "System",
+    "light": "Hell",
+    "dark": "Dunkel"
+  },
+  "buttons": {
+    "playAgain": "Noch einmal",
+    "signIn": "Anmelden",
+    "signUp": "Registrieren",
+    "signOut": "Abmelden"
+  },
+  "home": {
+    "subtitleSignedOut": "Melde dich an, um deine täglichen Gehirnübungen zu starten.",
+    "subtitleSignedIn": "Täglicher Spielplan für {{email}}.",
+    "quickLinks": {
+      "leaderboard": "Bestenliste",
+      "profile": "Profil",
+      "settings": "Einstellungen"
+    }
+  },
+  "auth": {
+    "loginTitle": "Anmelden",
+    "registerTitle": "Konto erstellen",
+    "noAccount": "Noch kein Konto?",
+    "haveAccount": "Bereits registriert?",
+    "namePlaceholder": "Vollständiger Name",
+    "emailPlaceholder": "E-Mail",
+    "passwordPlaceholder": "Passwort",
+    "successTitle": "Erfolg",
+    "successDescription": "Bitte überprüfe dein Postfach zur Bestätigung.",
+    "errorTitle": "Fehler",
+    "genericError": "Es ist ein Fehler aufgetreten."
+  },
+  "leaderboard": {
+    "title": "Bestenliste",
+    "all": "Alle",
+    "rank": "Rang",
+    "user": "Benutzer",
+    "score": "Punkte",
+    "loading": "Lädt...",
+    "empty": "Noch keine Ergebnisse."
+  },
+  "profile": {
+    "title": "Profil",
+    "email": "E-Mail",
+    "userId": "Benutzer-ID",
+    "recentGames": "Letzte Spiele",
+    "historyEmpty": "Noch keine Spielhistorie.",
+    "score": "Punkte: {{score}}",
+    "unknownGame": "Unbekanntes Spiel"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "theme": "Theme",
+    "currentTheme": "Du verwendest derzeit das {{mode}}-Theme.",
+    "account": "Konto",
+    "signOutError": "Abmeldung fehlgeschlagen",
+    "language": {
+      "title": "Sprache",
+      "description": "Wähle die App-Sprache aus."
+    },
+    "languages": {
+      "en": "Englisch",
+      "de": "Deutsch",
+      "tr": "Türkisch"
+    }
+  },
+  "games": {
+    "status": {
+      "score": "Punkte: {{score}}",
+      "remaining": "Verbleibende Zeit: {{seconds}}s",
+      "accuracy": "{{percentage}}% Genauigkeit"
+    },
+    "feedback": {
+      "correct": "Super! Richtige Antwort.",
+      "incorrect": "Versuch es erneut und beachte den Hinweis."
+    },
+    "messages": {
+      "notFound": "Spiel nicht gefunden.",
+      "saving": "Punkte werden gespeichert...",
+      "saveError": "Punkte konnten nicht gespeichert werden"
+    },
+    "categories": {
+      "memory": "Gedächtnis",
+      "attention": "Aufmerksamkeit",
+      "logic": "Logik"
+    },
+    "difficulties": {
+      "easy": "Leicht",
+      "medium": "Mittel",
+      "hard": "Schwer"
+    },
+    "memoryMatch": {
+      "title": "Memo-Paare",
+      "summary": "Drehe die Karten um und finde die Paare.",
+      "goal": "Finde alle Paare so schnell wie möglich.",
+      "hint": "Präge dir zuerst die Ecken ein, um schneller zu werden.",
+      "prompt": "Finde das passende Paar: {{pair}} {{pair}}",
+      "explanation": "Nutze dein Kurzzeitgedächtnis, um das Paar zu entdecken."
+    },
+    "sequenceRemember": {
+      "title": "Reihenfolge merken",
+      "summary": "Wiederhole die Farbreihenfolge in der richtigen Folge.",
+      "goal": "Merke dir die Reihe, während sie länger wird.",
+      "hint": "Zähle den Rhythmus laut mit.",
+      "prompt": "Merke dir die Reihe: {{sequence}}",
+      "explanation": "Der Rhythmus hilft, die Ordnung zu behalten."
+    },
+    "patternVision": {
+      "title": "Musterfinder",
+      "summary": "Finde das fehlende Element in der Sequenz.",
+      "goal": "Erreiche die höchste Anzahl richtiger Antworten.",
+      "hint": "Achte darauf, wie die Formen zu- oder abnehmen.",
+      "prompt": "Vervollständige das Muster: {{sequence}} , ?",
+      "explanation": "Verfolge die Steigerung, um die nächste Zahl zu finden."
+    },
+    "quickCount": {
+      "title": "Schnell zählen",
+      "summary": "Zähle die Symbole, bevor die Zeit abläuft.",
+      "goal": "Wähle die richtige Zahl, bevor der Timer endet.",
+      "hint": "Gruppiere die Symbole für schnelleres Zählen.",
+      "prompt": "Wie viele Symbole siehst du? {{symbols}}",
+      "explanation": "Gruppieren hilft, schneller zu schätzen und zu prüfen."
+    },
+    "focusTap": {
+      "title": "Fokustipp",
+      "summary": "Tippe auf Ziele, sobald sie erscheinen.",
+      "goal": "Triff so viele Ziele wie möglich in der Zeit.",
+      "hint": "Halte deinen Blick in der Mitte.",
+      "prompt": "Konzentriere dich auf die Zielzahl: {{number}}. Welche Option stimmt?",
+      "explanation": "Bleib zentriert und halte deinen Fokus."
+    },
+    "emotionMatch": {
+      "title": "Emotion erkennen",
+      "summary": "Ordne Gesichtsausdrücke der passenden Emotion zu.",
+      "goal": "Erreiche eine hohe Trefferquote.",
+      "hint": "Achte auf Augen und Mundwinkel.",
+      "prompt": "Welche Emotion zeigt dieses Gesicht? {{emoji}}",
+      "explanation": "Augen und Mund verraten die Emotion.",
+      "emotions": {
+        "happy": "Glücklich",
+        "sad": "Traurig",
+        "angry": "Wütend",
+        "surprised": "Überrascht"
+      }
+    },
+    "rhythmTap": {
+      "title": "Rhythmus-Tipp",
+      "summary": "Folge dem Rhythmus und tippe im Takt.",
+      "goal": "Baue Serien richtiger Taps auf.",
+      "hint": "Zähle die Schläge laut.",
+      "prompt": "Wiederhole den Rhythmus: {{pattern}}",
+      "explanation": "1-2-3-4 zählend bleibt der Rhythmus stabil."
+    },
+    "mathBridge": {
+      "title": "Zahlenbrücke",
+      "summary": "Schließe die Brücke mit einfachen Rechnungen.",
+      "goal": "Löse die Aufgaben korrekt, um hinüberzukommen.",
+      "hint": "Zerlege große Zahlen in kleinere Teile.",
+      "prompt": "Vervollständige die Brücke: {{a}} + {{b}} = ?",
+      "explanation": "Teile die Zahlen mental, um schneller zu addieren."
+    },
+    "findTheDifference": {
+      "title": "Finde den Unterschied",
+      "summary": "Entdecke die Unterschiede zwischen zwei Bildern.",
+      "goal": "Finde alle Unterschiede, bevor die Zeit abläuft.",
+      "hint": "Scanne das Bild mit einem Z-Muster.",
+      "prompt": "Finde das unpassende Symbol: {{sequence}}",
+      "explanation": "Wähle die Blume mit der anderen Farbe."
+    }
+  },
+  "messages": {
+    "noAttempts": "Noch keine Versuche."
+  }
+}

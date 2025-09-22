@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "baseUrl": "."
+  },
+  "include": [
+    "app",
+    "components",
+    "hooks",
+    "services",
+    "styles",
+    "constants",
+    "utils",
+    "tests",
+    "types",
+    "babel.config.js",
+    "jest.config.js"
+  ]
+}

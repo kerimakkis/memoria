@@ -1,0 +1,179 @@
+{
+  "app": {
+    "name": "Memoria"
+  },
+  "theme": {
+    "system": "System",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "buttons": {
+    "playAgain": "Play Again",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out"
+  },
+  "home": {
+    "subtitleSignedOut": "Sign in to start your daily brain exercises.",
+    "subtitleSignedIn": "Daily game plan for {{email}}.",
+    "quickLinks": {
+      "leaderboard": "Leaderboard",
+      "profile": "Profile",
+      "settings": "Settings"
+    }
+  },
+  "auth": {
+    "loginTitle": "Sign In",
+    "registerTitle": "Create Account",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already a member?",
+    "namePlaceholder": "Full Name",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "successTitle": "Success",
+    "successDescription": "Please check your inbox to confirm your email.",
+    "errorTitle": "Error",
+    "genericError": "Something went wrong."
+  },
+  "leaderboard": {
+    "title": "Leaderboard",
+    "all": "All",
+    "rank": "Rank",
+    "user": "User",
+    "score": "Score",
+    "loading": "Loading...",
+    "empty": "No scores yet."
+  },
+  "profile": {
+    "title": "Profile",
+    "email": "Email",
+    "userId": "User ID",
+    "recentGames": "Recent Games",
+    "historyEmpty": "No game history yet.",
+    "score": "Score: {{score}}",
+    "unknownGame": "Unknown Game"
+  },
+  "settings": {
+    "title": "Settings",
+    "theme": "Theme",
+    "currentTheme": "You are currently using the {{mode}} theme.",
+    "account": "Account",
+    "signOutError": "Sign out failed",
+    "language": {
+      "title": "Language",
+      "description": "Choose the app language."
+    },
+    "languages": {
+      "en": "English",
+      "de": "German",
+      "tr": "Turkish"
+    }
+  },
+  "games": {
+    "status": {
+      "score": "Score: {{score}}",
+      "remaining": "Time left: {{seconds}}s",
+      "accuracy": "{{percentage}}% accuracy"
+    },
+    "feedback": {
+      "correct": "Great! Correct answer.",
+      "incorrect": "Try again, focus on the hint."
+    },
+    "messages": {
+      "notFound": "Game not found.",
+      "saving": "Saving score...",
+      "saveError": "Score could not be saved"
+    },
+    "categories": {
+      "memory": "Memory",
+      "attention": "Attention",
+      "logic": "Logic"
+    },
+    "difficulties": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    },
+    "memoryMatch": {
+      "title": "Memory Match",
+      "summary": "Flip the cards and find the matching pairs.",
+      "goal": "Find all pairs as fast as possible.",
+      "hint": "Memorize the corners first to speed up.",
+      "prompt": "Find the matching pair: {{pair}} {{pair}}",
+      "explanation": "Use your short-term memory to spot the pair."
+    },
+    "sequenceRemember": {
+      "title": "Sequence Recall",
+      "summary": "Repeat the color sequence in order.",
+      "goal": "Remember the sequence as it grows each round.",
+      "hint": "Count the rhythm out loud.",
+      "prompt": "Remember the sequence: {{sequence}}",
+      "explanation": "Follow the rhythm to keep the order."
+    },
+    "patternVision": {
+      "title": "Pattern Finder",
+      "summary": "Identify the missing element in the pattern.",
+      "goal": "Reach the highest number of correct answers.",
+      "hint": "Look for how the shapes increase or decrease.",
+      "prompt": "Complete the pattern: {{sequence}} , ?",
+      "explanation": "Track the rate of increase to find the next number."
+    },
+    "quickCount": {
+      "title": "Quick Count",
+      "summary": "Count the objects quickly before time runs out.",
+      "goal": "Choose the correct number before the timer ends.",
+      "hint": "Group the items to count faster.",
+      "prompt": "How many symbols do you see? {{symbols}}",
+      "explanation": "Grouping helps estimate and verify faster."
+    },
+    "focusTap": {
+      "title": "Focus Tap",
+      "summary": "Tap the targets as soon as they appear.",
+      "goal": "Hit as many targets as possible in time.",
+      "hint": "Keep your eyes near the center.",
+      "prompt": "Focus on the target number: {{number}}. Which option is correct?",
+      "explanation": "Stay centered and maintain your focus."
+    },
+    "emotionMatch": {
+      "title": "Emotion Match",
+      "summary": "Match facial expressions to the correct emotion.",
+      "goal": "Match accurately with a high success rate.",
+      "hint": "Watch the eyes and mouth for clues.",
+      "prompt": "Which emotion does this face show? {{emoji}}",
+      "explanation": "Eyes and mouth reveal the emotion.",
+      "emotions": {
+        "happy": "Happy",
+        "sad": "Sad",
+        "angry": "Angry",
+        "surprised": "Surprised"
+      }
+    },
+    "rhythmTap": {
+      "title": "Rhythm Tap",
+      "summary": "Follow the rhythm and tap in time.",
+      "goal": "Build streaks of correct taps.",
+      "hint": "Count the beats aloud.",
+      "prompt": "Repeat the rhythm: {{pattern}}",
+      "explanation": "Counting 1-2-3-4 keeps the rhythm steady."
+    },
+    "mathBridge": {
+      "title": "Number Bridge",
+      "summary": "Complete the bridge with simple math.",
+      "goal": "Solve the operations correctly to cross.",
+      "hint": "Break large numbers into smaller parts.",
+      "prompt": "Complete the bridge: {{a}} + {{b}} = ?",
+      "explanation": "Split the numbers mentally for quick sums."
+    },
+    "findTheDifference": {
+      "title": "Spot the Difference",
+      "summary": "Find the differences between two visuals.",
+      "goal": "Spot all differences before time runs out.",
+      "hint": "Scan the scene in a Z pattern.",
+      "prompt": "Find the odd one out: {{sequence}}",
+      "explanation": "Choose the flower with the different color."
+    }
+  },
+  "messages": {
+    "noAttempts": "No attempts yet."
+  }
+}
